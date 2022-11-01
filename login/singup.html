@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiệm Đĩa Tháng 10</title>
+    <script src="https://kit.fontawesome.com/3d95075400.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="../script.js"></script>
+</head>
+
+<body>
+<div class="main">
+<header>
+    <section class="section-1">
+        <nav class="top_navbar flex">
+            <ul class="flex">   
+                <li><a href="#">Giới thiệu</a></li>
+                <li>
+                    <a href="#">Kết nối </a>
+                    <a href="#" class="navbar-icon" data-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="navbar-icon" data-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="navbar-icon" data-label="Tiktok"><i class="fa-brands fa-tiktok"></i></a>
+                </li>
+            </ul>
+            <ul class="flex">
+                <li><a href="" class="navbar-icon"> 
+                <i class="fa-regular fa-circle-question" ></i> Trợ giúp </a></li>
+                <li><a href="#"> Đăng ký</a></li>
+                <li><a href="./index.html">Đăng nhập</a></li>
+            </ul>
+        </nav>
+        <nav class="inner_navbar flex">
+            <div class="search">
+                <li><input placeholder="Tìm kiếm" type="text"> <i class="fas fa-search"></i></li>
+            </div>
+            <div class="logo">
+                <a href="../index.html"><img src="../images/ko nền.png" alt="logo"></a>
+                
+            </div>
+            <div class="cart">
+                <div class="header-cart large--right">
+                    <a  onclick="myClick()" href="#" class="flex">  
+                        <span><img class="cart-icon" src="../images/cart.png">
+                        </span>
+                        <span class="my-cart right">
+                            <span class="cart-text">Giỏ hàng</span>
+                            <span id="CartCount" class="hidden-count">0</span>
+                            Sản phẩm
+                             
+                        </span>       
+                    </a>
+                  </div>
+                       
+            </div>
+        </nav>
+        <!-- <hr> -->
+        <nav class="bottom_navbar ">
+            <div id="toggle-btn">
+                <label for="toggle">
+                    <i class="fas fa-bars"></i>
+                </label>
+            </div>
+            <input type="checkbox" id="toggle">
+            <ul > 
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../web/dianhacvietnam.html">Đĩa nhạc Việt Nam</a></li>
+                <li><a href="../web/dianhacquocte.html">Băng đĩa quốc tế</a></li>
+                <li><a href="../web/dia-than-page.html">Đĩa than</a></li>
+                <li><a href="../web/bang-cassette.html">Băng Cassette</a></li>
+                <li><a href="../web/thietbiso.html">Thiết bị số - Phụ kiện</a></li>
+            </ul>
+        </nav>    
+    
+    </section>
+</header>
+
+<div id="login">
+    <div id="login_box">
+        
+            <div id = login__>Đăng kí</div>
+        <div class="inputBox">
+            <input type="text" required ="required">
+            <span >Tài khoản đăng kí</span>
+            <i></i>
+        </div>
+        <div class="inputBox" id = "inputBox">
+            <input type="password" required ="required">
+            <span>Mật khẩu</span>
+            <i></i>
+        </div>
+        <div class="inputBox" id = "inputBox1">
+            <input type="password" required ="required">
+            <span>Nhập lại mật khẩu</span>
+            <i></i>
+        </div>
+        <div class="links">
+            <a  onclick="myClick()" href="#">Quên mật khẩu</a>
+            <a href="./index.html">Đăng nhập</a>
+        </div>
+        <input onclick="myClick()" type="submit" value="Đăng kí">
+    </div>
+</div>
+
+
+
+<footer class="footer">
+    <div class="main-footer">
+        <img src="../images/ko nền.png" class="img-footer">
+        <div>
+            <h4>THÔNG TIN</h4>
+            <div class="footer_content">
+                <a class="footer_link" href="#">Giới thiệu</a>
+                <a class="footer_link" href="#">Liên hê</a>
+                <a class="footer_link" href="#">Thông tin ngân hàng</a>
+                <a class="footer_link" href="#">Câu hỏi thường gặp</a>
+            </div>
+        </div>
+        <div>
+            <h4>SẢN PHẨM</h4>
+            <div class="footer_content">
+                <a class="footer_link" href="#">Ấn bản thời đại</a>
+                <a class="footer_link" href="#">CD / DVD</a>
+                <a class="footer_link" href="#">Đĩa than</a>
+                <a class="footer_link" href="#">Băng Cassettle</a>
+            </div>
+        </div>
+        <div>
+            <h4>TIMES RECORDS</h4>
+            <div class="footer_content">
+                <div class="footer_icon">
+                    <div class="generate facebook">
+                    <i class="fa-brands fa-facebook-f iconFacebook"></i>
+                    </div>
+                    <div class="generate twitter">
+                    <i class="fa-brands fa-twitter iconTwitter"></i>
+                    </div>
+                    <div class="generate pinterest">
+                    <i class="fa-brands fa-pinterest iconPinterest"></i>
+                    </div>
+                    <div class="generate google">
+                    <i class="fa-brands fa-google iconGoogle"></i>
+                    </div>
+                </div>
+                <div class="footer_icon">
+                    <div class="generate instagram">
+                    <i class="fa-brands fa-instagram iconInstagram"></i>
+                    </div>
+                    <div class="generate tumblr">
+                    <i class="fa-brands fa-tumblr iconTumblr"></i>
+                    </div>
+                    <div class="generate youtube">
+                    <i class="fa-brands fa-youtube iconYouTube"></i>
+                    </div>
+                    <div class="generate vimeo">
+                    <i class="fa-brands fa-vimeo-v iconVimeo"></i>
+                    </div>
+                </div>
+          </div>
+        </div>
+    </div>
+    <div class="copy_right">
+        <p>© 2018-2021 Công ty TNHH Hãng Đĩa Thời Đại - Times Records Co., Ltd. All rights reserved.</p>
+        
+    </div>
+</footer> 
+</div> 
+</body>
+</html>

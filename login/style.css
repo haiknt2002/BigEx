@@ -1,0 +1,96 @@
+#login{
+    padding-top: 100px;
+    height: 600px;
+    background-color: #f5eeee;
+    justify-content: center;
+    align-items: center;
+}
+#login_box{
+    height: 100%;
+    margin: 0 auto;
+    max-width: 500px;
+    /* background-color: #ffffff; */
+    display: block;
+}
+
+#login__{
+    color: rgb(92, 47, 189);
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding-bottom: 30px;
+}
+
+
+.inputBox {
+    max-width: 100%;
+    margin: auto;
+    height: 70px;
+}
+.inputBox input{
+    width: 100%;
+    padding: 8px 10px;
+    background: transparent;
+    /* border: none; */
+    border-radius: 10px;
+    outline: none;
+    color: black;
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+.inputBox span{
+    font-size: 20px;
+    position: absolute;
+    padding: 6px;
+    left: 520px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.inputBox input:valid ~span,
+.inputBox input:focus ~span{
+    color: rgb(34, 49, 98);
+    transform:translateX(-10px) translateY(-34px);
+    font-size: 25px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+
+}
+.links a{
+    font-size: 18px;
+    margin: 10px 20px;
+    color: rgb(93, 116, 59);
+}
+.links a:hover,
+.links a:nth-child(2){
+    color: rgb(92, 92, 173);
+}
+#inputBox{
+    height: 50px;
+}
+input[type="submit"]{
+    border: none;
+    outline: none;
+    background-color: rgb(95, 141, 141);
+    padding: 10px 25px;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    height: 40px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(144, 135, 231);
+}
+
+#inputBox1{
+    margin-top: 20px;
+    height: 40px;
+}
+
