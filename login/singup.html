@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="./style.css">
     <script src="../script.js"></script>
+    <script src="./script.js"></script>
 </head>
 
 <body>
@@ -82,17 +83,17 @@
         
             <div id = login__>Đăng kí</div>
         <div class="inputBox">
-            <input type="text" required ="required">
+            <input id="username" type="text" required ="required">
             <span >Tài khoản đăng kí</span>
             <i></i>
         </div>
         <div class="inputBox" id = "inputBox">
-            <input type="password" required ="required">
+            <input id="pwd1" type="password" required ="required">
             <span>Mật khẩu</span>
             <i></i>
         </div>
         <div class="inputBox" id = "inputBox1">
-            <input type="password" required ="required">
+            <input id="pwd2" type="password" required ="required">
             <span>Nhập lại mật khẩu</span>
             <i></i>
         </div>
@@ -100,7 +101,7 @@
             <a  onclick="myClick()" href="#">Quên mật khẩu</a>
             <a href="./index.html">Đăng nhập</a>
         </div>
-        <input onclick="myClick()" type="submit" value="Đăng kí">
+        <a href="javascript:submit()"><input type="submit" value="Đăng kí"></a>
     </div>
 </div>
 

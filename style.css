@@ -207,9 +207,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    -webkit-box-reflect: below 1px -webkit-gradient(linear, right top, right bottom, form(transparent),to(rgba(255,255,255,0.3)));
+    /* -webkit-box-reflect: below 1px -webkit-gradient(linear, right top, right bottom, form(transparent),to(rgba(255,255,255,0.3))); */
 }
 @keyframes slideShow{
+    0%{
+        margin-left: 0;
+    }
     20%{
         margin-left: 0;
     }
